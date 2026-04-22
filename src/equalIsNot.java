@@ -9,8 +9,14 @@ public class equalIsNot {
             if (str.contains("is")){
                 numOfIs++;
             }
-            if (str.contains())
+            if (str.contains("not")){
+                numOfNot++;
+            }
+            if (numOfIs==numOfNot){
+                return true;
+            }
         }
+        return false;
     }
 
 }
