@@ -8,10 +8,10 @@ public class equalIsNot {
         int numOfIs=0;
         int numOfNot=0;
         for (int i=0;i<str.length();i++){
-            if (str.contains("is")){
+            if (i + 2 <= str.length() && str.substring(i, i + 2).equals("is")) {
                 numOfIs++;
             }
-            if (str.contains("not")){
+            if (i + 3 <= str.length() && str.substring(i, i + 3).equals("not")) {
                 numOfNot++;
             }
             if (numOfIs==numOfNot){
