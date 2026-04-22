@@ -1,5 +1,7 @@
 public class equalIsNot {
     public static void main(String[] args) {
+        String str ="This is not";
+        System.out.println(equalIsNot(str));
 
     }
     public static Boolean equalIsNot(String str){
