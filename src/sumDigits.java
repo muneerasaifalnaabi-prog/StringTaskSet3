@@ -7,6 +7,8 @@ public class sumDigits {
         for (int i=0;i<str.length();i++){
             char c =str.charAt(i);
             if(Character.isDigit(c)){
+                Integer num=Integer.parseInt(String.valueOf(c));
+                sum+=num;
 
             }
         }
