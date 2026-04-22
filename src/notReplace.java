@@ -15,8 +15,7 @@ public class notReplace {
                 i++;
             }
 
-
-
+              else result += str.charAt(i);
         }
         return result;
 
