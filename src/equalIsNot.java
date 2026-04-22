@@ -1,6 +1,6 @@
 public class equalIsNot {
     public static void main(String[] args) {
-        String str ="This is not";
+        String str ="This is notnot";
         System.out.println(equalIsNot(str));
 
     }
