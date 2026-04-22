@@ -1,5 +1,7 @@
 public class countYZ {
     public static void main(String[] args) {
+            String str="fez day";
+        System.out.println(countYZ(str));
 
     }
     public static Integer countYZ(String str){
@@ -7,7 +9,7 @@ public class countYZ {
         str=str.toLowerCase();
         for (int i=0;i<str.length();i++){
             char ch=str.charAt(i);
-            if ((ch=='y'|| ch=='z')&&(i==str.length()-1 || !Character.isLetter(i+1)){
+            if ((ch=='y'|| ch=='z')&&(i==str.length()-1 || !Character.isLetter(i+1))){
                 count++;
 
 
