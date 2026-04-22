@@ -1,6 +1,6 @@
 public class notReplace {
     public static void main(String[] args) {
-        System.out.println(notReplace("This is right"));
+        System.out.println(notReplace("is"));
     }
     public static String notReplace(String str){
         String result = "";
