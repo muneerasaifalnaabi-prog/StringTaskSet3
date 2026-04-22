@@ -4,6 +4,8 @@ public class sumNumbers {
     }
     public static  Integer sumNumbers(String str){
         int count =0;
+
+
         for (int i=0;i<str.length();i++){
             char ch=str.charAt(i);
              if(Character.isDigit(ch) && Character.isDigit(ch+1)){
