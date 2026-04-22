@@ -1,5 +1,6 @@
 public class countTriple {
     public static void main(String[] args) {
+        String str
 
     }
     public static  Integer countTriple(String str){
