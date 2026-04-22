@@ -3,6 +3,11 @@ public class withoutString {
 
     }
     public static String withoutString(String base,String remove){
+        base=base.toLowerCase();
+        remove=remove.toLowerCase();
+
+
+
 
     }
 
