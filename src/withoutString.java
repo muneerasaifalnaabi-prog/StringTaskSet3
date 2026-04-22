@@ -10,7 +10,10 @@ public class withoutString {
         String result ="";
 
         int i=0;
-        while ((base.contains(remove.toLowerCase())))
+        while ((base.contains(remove.toLowerCase()))){
+            i=base.indexOf(remove.toLowerCase());
+            result=base.substring(i,i+remove.length());
+        }
 
 
     }
