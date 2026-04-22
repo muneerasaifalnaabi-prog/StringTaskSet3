@@ -4,6 +4,10 @@ public class gHappy {
     }
     public static  Boolean gHappy(String str){
 
+        for (int i=0;i<str.length();i++){
+
+        }
+
     }
 
 
