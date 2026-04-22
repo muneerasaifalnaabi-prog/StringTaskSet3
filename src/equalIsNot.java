@@ -2,5 +2,5 @@ public class equalIsNot {
     public static void main(String[] args) {
 
     }
-    public static Boolean
+    public static Boolean equalIsNot()
 }
