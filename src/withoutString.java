@@ -7,21 +7,10 @@ public class withoutString {
     }
     public static String withoutString(String base,String remove){
         base=base.toLowerCase();
-        remove=remove.toLowerCase();
         String result ="";
 
-        for (int i=0;i<base.length();i++){
-            if(i + remove.length() <= base.length() && base.substring(i,i+remove.length()).equals(remove)){
-                i+=remove.length();
-            }
-            else{
-                result+=base.charAt(i);
-                i++;
-
-            }
-        }
-
-return result;
+        int i=0;
+        while ((base.contains(remove.toLowerCase())))
 
 
     }
