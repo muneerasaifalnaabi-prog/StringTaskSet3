@@ -1,5 +1,8 @@
 public class withoutString {
     public static void main(String[] args) {
+            String str ="Hello there";
+            String str1 ="llo";
+
 
     }
     public static String withoutString(String base,String remove){
