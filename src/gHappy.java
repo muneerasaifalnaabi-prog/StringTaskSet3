@@ -1,9 +1,9 @@
 public class gHappy {
     public static void main(String[] args) {
         String str="xxggxx";
-
+        String str1="xxgxx";
         System.out.println(gHappy(str));
-
+        System.out.println(gHappy(str1));
 
 
     }
