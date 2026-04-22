@@ -14,11 +14,10 @@ public class equalIsNot {
             if (i + 3 <= str.length() && str.substring(i, i + 3).equals("not")) {
                 numOfNot++;
             }
-            if (numOfIs==numOfNot){
-                return true;
-            }
+
+
         }
-        return false;
+        return numOfIs==numOfNot;
     }
 
 }
