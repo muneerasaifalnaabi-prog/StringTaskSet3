@@ -1,7 +1,7 @@
 public class withoutString {
     public static void main(String[] args) {
             String str ="Hello there";
-            String str1 ="e";
+            String str1 ="llo";
         System.out.println(withoutString(str,str1));
 
     }
