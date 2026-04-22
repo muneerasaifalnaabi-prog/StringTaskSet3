@@ -6,16 +6,15 @@ public class sameEnds {
     }
 
     public static String sameEnds(String str){
-        String result = "";
-        for (int i=0;i<str.length()/2;i++){
-            String start =str.substring(0,i);
-            String end =str.substring(str.length()-i);
-            if (start.equals(end)) {
-                result = start;
+         int middle = str.length() / 2;
+        for (int i = middle; i >= 0; i--) {
+            String left = str.substring(0, i);
+            if (str.endsWith(left)) {
+                return left;
             }
         }
-        return result;
-        }
+        return "";
+    }
     }
 
 
