@@ -1,6 +1,6 @@
 public class sumDigits {
     public static void main(String[] args) {
-
+String str ="aa1bc2d3";
     }
     public static Integer sumDigits(String str){
         int sum=0;
@@ -12,5 +12,6 @@ public class sumDigits {
 
             }
         }
+        return sum;
     }
 }
