@@ -3,4 +3,7 @@ public class sameEnds {
 
     }
 
+    public static String sameEnds(String str){}
+
+
 }
